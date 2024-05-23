@@ -51,7 +51,7 @@ p {
 .button-two {
   color: #aaa;
   border: none;
-  background-color: none;
+  background: none;
   font-size: 15px;
   font-weight: 400;
   padding: 15px 35px;
@@ -60,6 +60,12 @@ p {
 
 .styled-select {
   border: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  gap: 71px;
 }
 
 .navigation a,
@@ -87,6 +93,12 @@ h1,
 
 .main {
   margin-bottom: 162px;
+  margin: 40px;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
 }
 
 .mainContent__leftSide h1 {
@@ -94,6 +106,7 @@ font-size: 60px;
 font-weight: 400;
 line-height: 71px;
 margin-bottom: 17px;
+min-width: 522px;
 }
 
 .mainContent__leftSide p {
@@ -101,6 +114,13 @@ font-size: 20px;
 font-weight: 400;
 line-height: 24px;
 margin-bottom: 37px;
+min-width: 466px;
+}
+
+.mainContent__leftSide-btnList {
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
 
 .footer {
@@ -108,6 +128,8 @@ margin-bottom: 37px;
 }
 
 .logos {
+  display: flex;
+  justify-content: space-between;
 }
 
 
